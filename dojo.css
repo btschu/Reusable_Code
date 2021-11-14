@@ -1,0 +1,128 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/*main container*/
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+/*button*/
+.btn{
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    color: #7dc8c8;
+    border: 2px solid #7dc8c8;
+    background-color: #fff;
+}
+
+
+
+/*Flex Columns*/
+.row {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+
+
+/*Flex Nav Bar*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 1000px; /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+
+
+/*layout adjustments*/
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.box-body {
+    padding: 20px;
+}
+
+.box-body h1, 
+.box-body h2,
+.box-body h3,
+.box-body p {
+    margin: 20px 0px;
+}
